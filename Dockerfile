@@ -1,6 +1,6 @@
 FROM ubuntu
 RUN apt update -y
-LABEL maintainer="Rohan Rustagi"
+LABEL maintainer="Mamali"
 RUN apt install nginx -y
 COPY . /var/www/html
 EXPOSE 80
