@@ -432,6 +432,9 @@ img {
 }
 
 @media (max-width: 670px) {
+  iframe {
+    display: none;
+  }
   .navbar .main-menu {
     display: none;
   }
