@@ -17,7 +17,9 @@ body {
   background: #fff;
   overflow-x: hidden;
 }
-
+iframe {
+  border: none;
+}
 a {
   text-decoration: none;
   color: #333;
@@ -432,9 +434,6 @@ img {
 }
 
 @media (max-width: 670px) {
-  iframe {
-    display: none;
-  }
   .navbar .main-menu {
     display: none;
   }
