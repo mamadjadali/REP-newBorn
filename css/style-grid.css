@@ -1,5 +1,6 @@
 :root {
   --clr-primary-400: 263 55% 52%;
+  --clr-red : 358 94% 35%;
   --clr-secondary-400: 217 19% 35%;
   --clr-secondary-500: 219 29% 14%;
   --clr-neutral-100: 0 0% 100%;
@@ -119,7 +120,7 @@ h3 {
 }
 
 .bg-primary-400 {
-  background: hsl(var(--clr-primary-400));
+  background: hsl(var(--clr-red));
 }
 .bg-secondary-400 {
   background: hsl(var(--clr-secondary-400));
@@ -251,4 +252,12 @@ h3 {
 
 .testimonial > p:last-of-type {
   opacity: 0.7;
+}
+.fa-txt {
+  font-family: lalezar, serif;
+  direction: rtl;
+}
+
+.jclean {
+  text-align: justify;
 }

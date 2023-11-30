@@ -17,6 +17,10 @@ body {
   background: #fff;
   overflow-x: hidden;
 }
+@font-face {
+  font-family: "lalezar";
+  src: url('../files/font/Lalezar-Regular.ttf') format('truetype');
+}
 iframe {
   border: none;
 }
@@ -88,6 +92,17 @@ img {
 .hero .hero-text {
   width: 70%;
   margin-bottom: 20px;
+}
+.fa-txt {
+  font-family: lalezar, serif;
+  direction: rtl;
+}
+.jclean {
+  text-align: justify;
+}
+.fa-txt-o {
+  font-family: lalezar, serif;
+  direction: rtl;
 }
 
 /* Video */
