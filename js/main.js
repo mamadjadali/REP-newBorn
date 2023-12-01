@@ -40,6 +40,31 @@ document.addEventListener('DOMContentLoaded', () => {
   const mobileMenu = document.querySelector('.mobile-menu');
 
   hamburgerButton.addEventListener('click', () =>
+      mobileMenu.classList.toggle('active')
+  );
+
+  // Add an event listener to the navbar links
+  document.querySelectorAll('.mobile-menu a').forEach(link => {
+    link.addEventListener('click', () => {
+      // Close the navbar by removing the 'active' class
+      mobileMenu.classList.remove('active');
+    });
+  });
+});
+
+/*document.addEventListener('DOMContentLoaded', () => {
+  const hamburgerButton = document.querySelector('.hamburger-button');
+  const mobileMenu = document.querySelector('.mobile-menu');
+
+  hamburgerButton.addEventListener('click', () =>
     mobileMenu.classList.toggle('active')
   );
-});
+  // Add an event listener to the navbar links
+  document.querySelectorAll('.hamburger-button a').forEach(link => {
+    link.addEventListener('click', () => {
+      // Close the navbar by removing the 'active' class
+      document.getElementById('.mobile-menu').classList.remove('active');
+    });
+  });
+
+});*/
